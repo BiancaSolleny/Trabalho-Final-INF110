@@ -1,0 +1,38 @@
+{
+    "tasks": [
+    {
+            "type": "cppbuild",
+            "label": "C/C++: g++.exe arquivo de build ativo",
+            "command": "C:\\mingw64\\bin\\g++.exe",
+            "args": [
+                "-fdiagnostics-color=always",
+                "-g",
+                "${file}",
+                "-I\"C:/C++Bibliotecas/SFML-2.6.1/include\"",
+                "-o",
+                "${fileDirname}\\${fileBasenameNoExtension}.exe",
+                "-L\"C:/C++Bibliotecas/SFML-2.6.1/lib\"",
+                "-lsfml-graphics",
+                "-lsfml-window",
+                "-lsfml-system",
+                "-lsfml-audio",
+                "-lopengl32",
+                "-lfreetype",
+                "-lwinmm",
+                "-lgdi32",
+            ],
+            "options": {
+                "cwd": "C:\\mingw64\\bin"
+            },
+            "problemMatcher": [
+                "$gcc"
+            ],
+            "group": {
+                "kind": "build",
+                "isDefault": true
+            },
+            "detail": "Tarefa gerada pelo Depurador."
+        }
+    ],
+    "version": "2.0.0"
+}
